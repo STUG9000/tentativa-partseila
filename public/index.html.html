@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>DROGARIA</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="esquerda">
+            <br><br><br><br><br><br><br><br>
+            <header>
+                <img src="logo.png">
+            </header> <br>  
+            <nav>
+                <label for="pergunta" id="pergunta">Já possui cadastro?</label>
+                <a href="login.html">
+                    <p name="pergunta" id="login">Login</p>
+                </a>
+            </nav> <br><br><Br>
+            <p id="frase">Sabemos que cada pessoa é única, e cuidar de você é a nossa missão. Ao preencher seu cadastro, você começa uma jornada de confiança e qualidade, com o compromisso de oferecer sempre o melhor para a sua saúde.</p>
+        </div>
+        
+        <div class="direita">
+            <br><br><br><br><br>
+            <div class="formulario">
+                <form id="cadastroForm">
+                    <fieldset>
+                        <legend>CADASTRO</legend>
+                        <br>
+                        <div class="nome">
+                            <label for="nome">Nome:</label> <br>
+                            <input type="text" name="nome" placeholder="Digite seu nome..." required>
+                        </div>
+                        <br>
+                        <div class="cpf">
+                            <label for="cpf">CPF:</label> <br>
+                            <input type="number" name="cpf" placeholder="Digite seu CPF..." required>
+                        </div>
+                        <br>
+                        <div class="idade">
+                            <label for="idade">Idade:</label> <br>
+                            <input type="number" name="idade" placeholder="Digite sua idade..." required>
+                        </div>
+                        <br>
+                        <div class="telefone">
+                            <label for="telefone">Telefone:</label> <br>
+                            <input type="number" name="telefone" placeholder="Digite seu número..." required>
+                        </div>
+                        <br>
+                        <div class="data">
+                            <label for="data">Data de Cadastro:</label>
+                            <br>
+                            <input  id="data" type="date" name="data" required>
+                        </div>
+                        <br>
+                        <div class="endereço">
+                            <label for="adress">Endereço:</label> <br>
+                            <input type="text" name="adress" placeholder="Digite seu endereço..." required>
+                        </div>
+                        <br>
+                        <div class="email">
+                            <label for="email">Email:</label> <br>
+                            <input type="email" name="email" placeholder="Digite seu email..." required>
+                        </div> 
+                        <br>
+                        <div class="senha">
+                            <label for="senha">Senha:</label> <br>  
+                            <input type="password" name="senha" placeholder="Cadastre uma senha..." required>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <input type="submit" id="enviar">
+                <form id="cadastroForm">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="cadastro.js"></script>
